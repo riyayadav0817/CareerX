@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+*/node_modules
+
+# Environment & Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Build outputs
+dist
+frontend/dist
+build
+
+# Uploaded user files (keep folder structure)
+uploads/resumes/*
+backend/uploads/resumes/*
+!uploads/resumes/.gitkeep
+!backend/uploads/resumes/.gitkeep
+uploads/logos/*
+backend/uploads/logos/*
+!uploads/logos/.gitkeep
+!backend/uploads/logos/.gitkeep
+
+# OS & Logs
+.DS_Store
+*.log
+npm-debug.log*
